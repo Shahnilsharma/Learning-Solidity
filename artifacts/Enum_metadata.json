@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "air",
+				"outputs": [
+					{
+						"internalType": "enum State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hard",
+				"outputs": [
+					{
+						"internalType": "enum State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ion",
+				"outputs": [
+					{
+						"internalType": "enum State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wet",
+				"outputs": [
+					{
+						"internalType": "enum State",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/maping.sol": "Enum"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/maping.sol": {
+			"keccak256": "0x99c4d05672bb350e4d6a5af2bf9b16c9130aa1b3cbd7f258a308278142f548c8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2d60830c52f531d8813386cdbc557a83d64f9b10aa524cbba402475f585ef493",
+				"dweb:/ipfs/QmX5zmMd7nB8Qgpbq3SGs4zXTE4F3DFxkL4aGyo9Fjbnyy"
+			]
+		},
+		"contracts/structEnum.sol": {
+			"keccak256": "0x4ab82e50f163caff933a5ea8f425d371559aaf127c1bdaff0f363727957e0e61",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://13938cbf55acb573de9f4654669d34231b57fe21f7411efee62fceceeda318b4",
+				"dweb:/ipfs/QmX56ChquaFVhee7XtwxQ3oBJd1pUHy2ZhUusa1VKP1h22"
+			]
+		}
+	},
+	"version": 1
+}

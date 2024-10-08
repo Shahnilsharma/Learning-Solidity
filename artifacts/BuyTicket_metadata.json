@@ -1,0 +1,57 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ticektAmount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Tickets.sol": "BuyTicket"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Tickets.sol": {
+			"keccak256": "0xcba78eb416e64a75a7d4f539deedd535d3ba8505a68ee03d2a922fb2cb159d86",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://afa314c834e907e907911c0a56ebc11b88818592d81996af32511aaf402a02b4",
+				"dweb:/ipfs/QmPbte2cQY5qQTuxe5QsDDuxDBtY5cZjEDDZCMBk65GQoa"
+			]
+		}
+	},
+	"version": 1
+}

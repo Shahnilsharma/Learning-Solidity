@@ -1,0 +1,207 @@
+{
+	"id": "c3ee1895d3a99dba0f1dbfddc0d04aee",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.23",
+	"solcLongVersion": "0.8.23+commit.f704f362",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/structEnum.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.0;\r\n \r\n   \r\n   \r\n\r\nstruct student{\r\n        string name;\r\n        string subject;\r\n        uint marks;\r\n    }\r\n\r\n enum State {\r\n        solid,\r\n        liquid,\r\n        gas,\r\n        plasma\r\n    }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/structEnum.sol": {
+				"ast": {
+					"absolutePath": "contracts/structEnum.sol",
+					"exportedSymbols": {
+						"State": [
+							13
+						],
+						"student": [
+							8
+						]
+					},
+					"id": 14,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".0"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:23:0"
+						},
+						{
+							"canonicalName": "student",
+							"id": 8,
+							"members": [
+								{
+									"constant": false,
+									"id": 3,
+									"mutability": "mutable",
+									"name": "name",
+									"nameLocation": "105:4:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 8,
+									"src": "98:11:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_string_storage_ptr",
+										"typeString": "string"
+									},
+									"typeName": {
+										"id": 2,
+										"name": "string",
+										"nodeType": "ElementaryTypeName",
+										"src": "98:6:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_storage_ptr",
+											"typeString": "string"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 5,
+									"mutability": "mutable",
+									"name": "subject",
+									"nameLocation": "127:7:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 8,
+									"src": "120:14:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_string_storage_ptr",
+										"typeString": "string"
+									},
+									"typeName": {
+										"id": 4,
+										"name": "string",
+										"nodeType": "ElementaryTypeName",
+										"src": "120:6:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_storage_ptr",
+											"typeString": "string"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 7,
+									"mutability": "mutable",
+									"name": "marks",
+									"nameLocation": "150:5:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 8,
+									"src": "145:10:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_uint256",
+										"typeString": "uint256"
+									},
+									"typeName": {
+										"id": 6,
+										"name": "uint",
+										"nodeType": "ElementaryTypeName",
+										"src": "145:4:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_uint256",
+											"typeString": "uint256"
+										}
+									},
+									"visibility": "internal"
+								}
+							],
+							"name": "student",
+							"nameLocation": "80:7:0",
+							"nodeType": "StructDefinition",
+							"scope": 14,
+							"src": "73:90:0",
+							"visibility": "public"
+						},
+						{
+							"canonicalName": "State",
+							"id": 13,
+							"members": [
+								{
+									"id": 9,
+									"name": "solid",
+									"nameLocation": "190:5:0",
+									"nodeType": "EnumValue",
+									"src": "190:5:0"
+								},
+								{
+									"id": 10,
+									"name": "liquid",
+									"nameLocation": "206:6:0",
+									"nodeType": "EnumValue",
+									"src": "206:6:0"
+								},
+								{
+									"id": 11,
+									"name": "gas",
+									"nameLocation": "223:3:0",
+									"nodeType": "EnumValue",
+									"src": "223:3:0"
+								},
+								{
+									"id": 12,
+									"name": "plasma",
+									"nameLocation": "237:6:0",
+									"nodeType": "EnumValue",
+									"src": "237:6:0"
+								}
+							],
+							"name": "State",
+							"nameLocation": "173:5:0",
+							"nodeType": "EnumDefinition",
+							"src": "168:82:0"
+						}
+					],
+					"src": "33:217:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

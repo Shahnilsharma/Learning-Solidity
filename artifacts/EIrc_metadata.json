@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/abiencode.sol": "EIrc"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/abiencode.sol": {
+			"keccak256": "0x02789c05b12df5edfe7cc25b0b9a81d5cf2d3c6814edbb5c7f60b2c09db4eafe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e5c72e139b574beef87a5c7a8b447914fd7b9f8917cf36a5f2ce8e2bcea193a4",
+				"dweb:/ipfs/QmTRB1VoiK3mHip6m1v4ZfP7xTJansb4pYbD5A4VsgMrvN"
+			]
+		}
+	},
+	"version": 1
+}

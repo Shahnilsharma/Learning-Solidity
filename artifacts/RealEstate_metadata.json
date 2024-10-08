@@ -1,0 +1,185 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "propertyId",
+						"type": "uint256"
+					}
+				],
+				"name": "PropertySold",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Properties",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "Onsale",
+						"type": "bool"
+					},
+					{
+						"internalType": "bool",
+						"name": "isResidential",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "location",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_propertyId",
+						"type": "uint256"
+					}
+				],
+				"name": "buyProperty",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getPropertylistIDs",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_residential",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "_commercial",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_propertyId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_price",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_description",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_location",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isResidential",
+						"type": "bool"
+					}
+				],
+				"name": "listPropertyForSale",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RealEstate.sol": "RealEstate"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RealEstate.sol": {
+			"keccak256": "0xd63c359742e8fa6612c108ef16e343ba023687f8f4984b0234871d96fe78480a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://47997cc247aee7f1fcdd5756e27ee23c600a5069e7eb9067af621a497915c631",
+				"dweb:/ipfs/QmSBwvquD3wvacgnXkE12ivTotSHXQg6H3Wimv7SxSMoQt"
+			]
+		},
+		"contracts/structProperty.sol": {
+			"keccak256": "0x5e8359a0f5cb80d03df806904d141b3241c4feb80674360cb1a80a70035a491c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6af3a57b47f67edf15a49a942b897a36d4bb29db799b4bdf27a371748304691f",
+				"dweb:/ipfs/QmTqAMdQ7oE81hkbGR782QGzVVscbfKDrh5iceNy2taXyH"
+			]
+		}
+	},
+	"version": 1
+}

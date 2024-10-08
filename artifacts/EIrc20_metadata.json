@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tranferace",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/abiencode.sol": "EIRC20"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/abiencode.sol": {
+			"keccak256": "0x388871d0dae6472c1521932bd74a8a1df4783ef4313bd8f888e4c75250be917b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://390eea10279fc3ba63bb9ca2a488d79cd50594a346c4bfeb023c55525d0555b8",
+				"dweb:/ipfs/QmSZnxP6DyrqbRDGtULUjN4YJp6NJpUZ1yHake23p38tW9"
+			]
+		}
+	},
+	"version": 1
+}

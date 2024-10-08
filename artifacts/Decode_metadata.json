@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decodee",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/abiencode.sol": "decode"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/abiencode.sol": {
+			"keccak256": "0x2794d638e2a6843b57b9b421bb4775efe6e0922ab256c5caa3b2eb8ddd231b62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cfd179e28298570724b9e5fe1632e87e2b82c5a096910e644e622ef84cf7a325",
+				"dweb:/ipfs/Qmari8a72ypta492Bz3Y4o6KiDJ6wwKfx5U8hHK6tVejMR"
+			]
+		}
+	},
+	"version": 1
+}

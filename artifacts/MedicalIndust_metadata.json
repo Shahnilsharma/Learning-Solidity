@@ -1,0 +1,249 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_gender",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_doctor",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_conditions",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_departments",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_procedures",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_medication",
+						"type": "string[]"
+					}
+				],
+				"name": "addPatient",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_patientAddr",
+						"type": "address"
+					}
+				],
+				"name": "getPatient",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "patientData",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "gender",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "isAlive",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_addr",
+						"type": "address"
+					}
+				],
+				"name": "patientIsAlive",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_doctor",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_conditions",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_departments",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_procedures",
+						"type": "string[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_medication",
+						"type": "string[]"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isAlive",
+						"type": "bool"
+					}
+				],
+				"name": "updatePatient",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MedicalIndustry.sol": "MedicalIndust"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MedicalIndustry.sol": {
+			"keccak256": "0x23edeef1c59c42ecbe7899c5a9223a589d0c10a1114b0ec427fa765795601be4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://beca6e28056a21d20860e783dda98e35d3b0eb726e65a6ef29e3e3fa8d7d1e77",
+				"dweb:/ipfs/QmR4SADa5ddJkDQG1YVB3utJa9AK5CEvnvDiCXfGSyvgEz"
+			]
+		}
+	},
+	"version": 1
+}

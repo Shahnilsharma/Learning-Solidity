@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/keccak.sol": "HashKeccakP"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/keccak.sol": {
+			"keccak256": "0x25a461e117e6c0fe12d7da181ee6d3f0a47c8ebd0ac2fa683e5be63e41f84eb0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b8d9adc56ccf9cb2a5ac2fc816170664289ff21283bbcb6574168c1c3b8de202",
+				"dweb:/ipfs/QmawjmMMQMVhgg15QDHqBautYJbW7FFA3d5sC99UW4ybfX"
+			]
+		}
+	},
+	"version": 1
+}
